@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Menu
+Icon[en_US]=stop
+Icon[en]=stop
+Icon[C]=stop
+Icon[ru]=stop
+Name[en_US]=Open root
+Name[en]=Open root
+Name[C]=Open root
+Name[ru]=Операции root
+ItemsList=root-open-document;root-open-console;

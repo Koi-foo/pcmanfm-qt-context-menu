@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Action
+ToolbarLabel[en_US]=Show Full Path
+ToolbarLabel[en]=Show Full Path
+ToolbarLabel[C]=Show Full Path
+ToolbarLabel[ru]=Показать полный путь
+Name[en_US]=Show Full Path
+Name[en]=Show Full Path
+Name[ru]=Показать полный путь
+Name[C]=Show Full Path
+Profiles=profile-zero;
+
+Icon[en_US]=go-next
+Icon[en]=go-next
+Icon[C]=go-next
+Icon[ru]=go-next
+
+[X-Action-Profile profile-zero]
+MimeTypes=all/allfiles;inode/directory;
+Exec=/opt/plug-pcmanfm-qt/full-path.sh %f
+Name[en_US]=Show Full Path
+Name[en]=Show Full Path
+Name[C]=Show Full Path
+Name[ru]=Показать полный путь
+

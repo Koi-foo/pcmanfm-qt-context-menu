@@ -1,0 +1,27 @@
+[Desktop Entry]
+Type=Action
+Tooltip[en_US]=The shortcut to your desktop
+Tooltip[en]=The shortcut to your desktop
+Tooltip[C]=The shortcut to your desktop
+Tooltip[ru]=Ярлык на рабочий стол
+ToolbarLabel[en_US]=The shortcut to your desktop
+ToolbarLabel[en]=The shortcut to your desktop
+ToolbarLabel[C]=The shortcut to your desktop
+ToolbarLabel[ru]=Ярлык на рабочий стол
+Name[en_US]=The shortcut to your desktop
+Name[en]=The shortcut to your desktop
+Name[ru]=Ярлык на рабочий стол
+Name[C]=The shortcut to your desktop
+Profiles=profile-zero;
+Icon[en_US]=kt-check-data
+Icon[en]=kt-check-data
+Icon[C]=kt-check-data
+Icon[ru]=kt-check-data
+
+[X-Action-Profile profile-zero]
+MimeTypes=all/allfiles;inode/directory;
+Exec=/opt/plug-pcmanfm-qt/shortcut-desktop.sh %f
+Name[en_US]=The shortcut to your desktop
+Name[en]=The shortcut to your desktop
+Name[C]=The shortcut to your desktop
+Name[ru]=Ярлык на рабочий стол

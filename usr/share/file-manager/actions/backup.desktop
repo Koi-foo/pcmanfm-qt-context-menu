@@ -1,0 +1,27 @@
+[Desktop Entry]
+Type=Action
+Tooltip[en_US]=Backup File Here
+Tooltip[en]=Backup File Here
+Tooltip[C]=Backup File Here
+Tooltip[ru]=Создать резервный файл
+ToolbarLabel[en_US]=Backup File Here
+ToolbarLabel[en]=Backup File Here
+ToolbarLabel[C]=Backup File Here
+ToolbarLabel[ru]=Создать резервный файл
+Name[en_US]=Backup File Here
+Name[en]=Backup File Here
+Name[C]=Backup File Here
+Name[ru]=Создать резервный файл
+Profiles=profile-zero;
+Icon[en_US]=document-save-as
+Icon[en]=document-save-as
+Icon[C]=document-save-as
+Icon[ru]=document-save-as
+
+[X-Action-Profile profile-zero]
+MimeTypes=all/allfiles;
+Exec=/opt/plug-pcmanfm-qt/backupfile.sh %f
+Name[en_US]=Default profile
+Name[en]=Default profile
+Name[C]=Default profile
+Name[ru]=Создать резервный файл

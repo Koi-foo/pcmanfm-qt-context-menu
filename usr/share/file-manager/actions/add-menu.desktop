@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Menu
+Icon[en_US]=add
+Icon[en]=add
+Icon[C]=add
+Icon[ru]=add
+Name[en_US]=Additionally
+Name[en]=Additionally
+Name[C]=Additionally
+Name[ru]=Дополнительно
+ItemsList=sha-sha256sum;open-new-window;shortcut-desktop;full-path;backup;root-open;

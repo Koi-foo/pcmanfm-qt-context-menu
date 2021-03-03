@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Action
+Icon[en_US]=edit-find
+Icon[en]=edit-find
+Icon[C]=edit-find
+Icon[ru]=edit-find
+ToolbarLabel[en_US]=Find files
+ToolbarLabel[en]=Find files
+ToolbarLabel[C]=Find files
+ToolbarLabel[ru]=Поиск файлов
+Name[en_US]=Find files
+Name[en]=Find files
+Name[ru]=Поиск файлов
+Name[C]=Find files
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=inode/directory;
+Exec=pcmanfm-qt -f %f
+Name[en_US]=Find files
+Name[en]=Find files
+Name[C]=Find files
+Name[ru]=Поиск файлов
+SelectionCount==1
+

@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Action
+Icon[en_US]=openterm
+Icon[en]=openterm
+Icon[C]=openterm
+Icon[ru]=openterm
+ToolbarLabel[en_US]=Open in terminal
+ToolbarLabel[en]=Open in terminal
+ToolbarLabel[C]=Open in terminal
+ToolbarLabel[ru]=Открыть в терминале
+Name[en_US]=Open in terminal
+Name[en]=Open in terminal
+Name[ru]=Открыть в терминале
+Name[C]=Open in terminal
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=inode/directory;
+Exec=beesu - "cd %f ;xterm"
+Name[en_US]=Open in terminal
+Name[en]=Open in terminal
+Name[C]=Open in terminal
+Name[ru]=Открыть в терминале
+SelectionCount==1
+

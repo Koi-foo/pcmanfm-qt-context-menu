@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Action
+Icon[en_US]=accessories-text-editor
+Icon[en]=accessories-text-editor
+Icon[C]=accessories-text-editor
+Icon[ru]=accessories-text-editor
+ToolbarLabel[en_US]=Edit the file
+ToolbarLabel[en]=Edit the file
+ToolbarLabel[C]=Edit the file
+ToolbarLabel[ru]=Редактирование файла
+Name[en_US]=Edit the file
+Name[en]=Edit the file
+Name[ru]=Редактирование файла
+Name[C]=Edit the file
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=!inode/directory;*;
+Exec=beesu - 'featherpad' %f
+Name[en_US]=Edit the file
+Name[en]=Edit the file
+Name[C]=Edit the file
+Name[ru]=Редактирование файла

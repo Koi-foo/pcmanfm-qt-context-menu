@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Action
+Icon[en_US]=iso-image-burn
+Icon[en]=iso-image-burn
+Icon[C]=iso-image-burn
+Icon[ru]=iso-image-burn
+ToolbarLabel[en_US]=Calculate SHA256
+ToolbarLabel[en]=Calculate SHA256
+ToolbarLabel[C]=Calculate SHA256
+ToolbarLabel[ru]=Вычислить SHA256
+Name[en_US]=Calculate SHA256
+Name[en]=Calculate SHA256
+Name[ru]=Вычислить SHA256
+Name[C]=Calculate SHA256
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=all/allfiles;
+Exec=/opt/plug-pcmanfm-qt/sum-sha256.sh %f
+Name[en_US]=Calculate SHA256
+Name[en]=Calculate SHA256
+Name[C]=Calculate SHA256
+Name[ru]=Вычислить SHA256
+SelectionCount==1

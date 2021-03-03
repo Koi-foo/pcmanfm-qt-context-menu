@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Action
+Icon[en_US]=archive-extract
+Icon[en]=archive-extract
+Icon[C]=archive-extract
+Icon[ru]=archive-extract
+ToolbarLabel[en_US]=Open archive here
+ToolbarLabel[en]=Open archive here
+ToolbarLabel[C]=Open archive here
+ToolbarLabel[ru]=Извлечь во вложенную папку
+Name[en_US]=Open archive here
+Name[en]=Open archive here
+Name[ru]=Извлечь во вложенную папку
+Name[C]=Open archive here
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=application/*;
+Exec=lxqt-archiver -h %f
+Name[en_US]=Open archive here
+Name[en]=Open archive here
+Name[C]=Open archive here
+Name[ru]=Извлечь во вложенную папку
+SelectionCount==1

@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Action
+Icon[en_US]=window_new
+Icon[en]=window_new
+Icon[C]=window_new
+Icon[ru]=window_new
+ToolbarLabel[en_US]=Open new window
+ToolbarLabel[en]=Open new window
+ToolbarLabel[C]=Open new window
+ToolbarLabel[ru]=Открыть в новом окне
+Name[en_US]=Open new window
+Name[en]=Open new window
+Name[ru]=Открыть в новом окне
+Name[C]=Open new window
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=all/allfiles;inode/directory;
+Exec=pcmanfm-qt -n %d
+Name[en_US]=Open new window
+Name[en]=Open new window
+Name[C]=Open new window
+Name[ru]=Открыть в новом окне
+SelectionCount==1
