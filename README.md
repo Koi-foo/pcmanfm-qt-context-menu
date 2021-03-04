@@ -14,6 +14,8 @@ Context menu for psmanfm-qt
 * Search for files in the specified folder
 * Show full path
 * Open archive to subfolder
+* Adding a wallpaper menu item to the desktop
+* Unpacking rpm archives
 
 * Edit document as root
 * Open terminal as root
@@ -23,6 +25,8 @@ Context menu for psmanfm-qt
 * Requires: coreutils
 * Requires: xterm
 * Requires: beesu
+* Requires: rpminstall
+* Requires: cpio
 
 ## Install
 The release contains ready-made rpm packages for altlinux. On distributions that don't use rpm, you can install it manually.
@@ -38,7 +42,8 @@ To open the terminal, xterm is used, it can be replaced in the file: **usr/share
 We would be grateful for any suggestions for improvements or new items.
 
 ## Changelog
-* New version v1.1 Release
+* New version v1.2 Release
+* New version v1.1
 
 
 ## Preview
