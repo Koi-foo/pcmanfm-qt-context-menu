@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Action
+Icon[en_US]=archive-extract
+Icon[en]=archive-extract
+Icon[C]=archive-extract
+Icon[ru]=archive-extract
+ToolbarLabel[en_US]=Open archive rpm
+ToolbarLabel[en]=Open archive rpm
+ToolbarLabel[C]=Open archive rpm
+ToolbarLabel[ru]=Извлечь архив RPM
+Name[en_US]=Open archive rpm
+Name[en]=Open archive rpm
+Name[ru]=Извлечь архив RPM
+Name[C]=Open archive rpm
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+MimeTypes=application/x-rpm;x-scheme-handler/apt;
+Exec=/opt/plug-pcmanfm-qt/open-archive-rpm.sh %f
+Name[en_US]=Open archive rpm
+Name[en]=Open archive rpm
+Name[C]=Open archive rpm
+Name[ru]=Извлечь архив RPM
+SelectionCount==1
